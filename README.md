@@ -19,10 +19,12 @@ cargo install fogwatch
 
 ## Quick Start
 
+https://developers.cloudflare.com/fundamentals/setup/find-account-and-zone-ids/#find-account-id-workers-and-pages
+
 1. Set your Cloudflare credentials:
 ```bash
 export CLOUDFLARE_API_TOKEN="your-api-token"
-export CLOUDFLARE_ACCOUNT_ID="your-account-id"
+export CLOUDFLARE_ACCOUNT_ID="your-worker-account-id"
 ```
 
 2. Run fogwatch:
